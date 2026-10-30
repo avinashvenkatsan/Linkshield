@@ -18,14 +18,19 @@ Phishing and malware links hide behind lookalike domains, shorteners, and valid 
 - Public DNS inspection, optional RDAP age, TLS certificate details
 - SSRF-safe redirect following with hop limits
 - Transparent 0–100 risk index (not a probability)
-- Anonymous scans, optional history, deletion
+- Anonymous scans, optional history, deletionsec
 - Dashboard backed by real stored scans (empty state when none exist)
 - Rate limiting, CORS allowlisting, privacy-aware logging
 
 ## Screenshots
 
-<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/6df843e1-53e2-4a28-bbe4-e9c28b6575ce" />
+home page:
 
+<img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/3fcd0a85-0d26-47fb-b1ca-f1dba3351aad" />
+
+risk analysis:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/77d31263-876d-4354-970e-6c83617bbcbd" />
 
 ## Architecture
 
