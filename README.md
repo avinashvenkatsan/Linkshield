@@ -24,7 +24,8 @@ Phishing and malware links hide behind lookalike domains, shorteners, and valid 
 
 ## Screenshots
 
-_Add screenshots here after running the UI locally (`frontend/src` pages: Home, Scan report, History, Dashboard)._
+<img width="1920" height="1080" alt="Screenshot (6)" src="https://github.com/user-attachments/assets/6df843e1-53e2-4a28-bbe4-e9c28b6575ce" />
+
 
 ## Architecture
 
