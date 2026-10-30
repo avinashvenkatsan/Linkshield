@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-navy-950 text-slate-100 antialiased;
+}
+
+*:focus-visible {
+  @apply outline-none ring-2 ring-accent-cyan/80 ring-offset-2 ring-offset-navy-950;
+}
+
+.risk-low {
+  @apply text-emerald-400;
+}
+.risk-medium {
+  @apply text-amber-400;
+}
+.risk-high {
+  @apply text-red-400;
+}
+.risk-unknown {
+  @apply text-slate-300;
+}
